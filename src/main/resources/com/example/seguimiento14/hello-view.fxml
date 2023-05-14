@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="441.0" prefWidth="620.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.seguimiento14.HelloController">
+   <children>
+      <Label layoutX="126.0" layoutY="83.0" prefHeight="43.0" prefWidth="368.0" text="Finanzas personales" textFill="#b009ed">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="36.0" />
+         </font></Label>
+      <Button fx:id="ingresarBtn" layoutX="337.0" layoutY="214.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="193.0" text="Registrar dato">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Button fx:id="mostrarBtn" layoutX="88.0" layoutY="214.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="193.0" text="mostrar datos ">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Button>
+      <Label layoutX="172.0" layoutY="325.0" prefHeight="17.0" prefWidth="109.0" text="Balance" textFill="#b009ed">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="balanceL" layoutX="337.0" layoutY="325.0" prefHeight="35.0" prefWidth="174.0" text="0" textAlignment="RIGHT">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

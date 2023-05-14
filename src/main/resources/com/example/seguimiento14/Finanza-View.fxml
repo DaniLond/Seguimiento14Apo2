@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.seguimiento14.FinanzaController">
+   <children>
+      <Label layoutX="146.0" layoutY="37.0" text="Ingresos y gastos" textFill="#b009ed">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="36.0" />
+         </font>
+      </Label>
+      <TableView fx:id="datosTable" layoutX="70.0" layoutY="107.0" prefHeight="232.0" prefWidth="337.0">
+        <columns>
+          <TableColumn fx:id="descripcionColumn" prefWidth="75.0" text="Descripción" />
+          <TableColumn fx:id="montoColumn" prefWidth="81.0" text="Monto" />
+            <TableColumn fx:id="tipoColumn" prefWidth="69.0" text="Tipo" />
+            <TableColumn fx:id="fechaColumn" prefWidth="75.0" text="Fecha" />
+        </columns>
+      </TableView>
+      <Button fx:id="eliminarBtn" layoutX="466.0" layoutY="283.0" mnemonicParsing="false" text="Eliminar">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="ingresosBtn" layoutX="467.0" layoutY="118.0" mnemonicParsing="false" text="Ver ingresos" />
+      <Button fx:id="gastosBtn" layoutX="472.0" layoutY="166.0" mnemonicParsing="false" text="Ver gastos" />
+      <Button fx:id="combinadoBtn" layoutX="446.0" layoutY="223.0" mnemonicParsing="false" text="Ver gastos y ingreso" />
+      <Button fx:id="regresarBtn" layoutX="33.0" layoutY="353.0" mnemonicParsing="false" text="Ir a pagina principal" />
+   </children>
+</AnchorPane>
